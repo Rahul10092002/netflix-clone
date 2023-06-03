@@ -1,0 +1,40 @@
+.link {
+  padding: 50px;
+}
+
+.sub-links ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.sub-links p {
+  color: #686868;
+  text-decoration: none;
+}
+
+.sub-links p:hover {
+  color: var(--dark);
+  text-decoration: underline;
+}
+.logos {
+    display: flex;
+}
+.logos p{
+  padding: 10px;
+}
+
+.logo {
+  color: #686868;
+}
+
+
+/* FOOTER */
+footer {
+  padding: 20px;
+  text-align: center;
+  color: #686868;
+  margin: 10px;
+}
